@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black & Luxury</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #050505;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 25px;
+      border-bottom: 1px solid #333;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      color: #d4af37;
+    }
+
+    .hero {
+      padding: 90px 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #bbb;
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 30px;
+      background: #d4af37;
+      color: #050505;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .services {
+      padding: 50px 20px;
+      background: #0d0d0d;
+    }
+
+    .card {
+      max-width: 350px;
+      margin: 20px auto;
+      padding: 25px;
+      border: 1px solid #333;
+      border-radius: 10px;
+    }
+
+    footer {
+      padding: 30px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">BLACK & LUXURY</div>
+  </header>
+
+  <section class="hero">
+    <h1>Luxury. Style. Excellence.</h1>
+    <p>Premium services for people who expect the best.</p>
+    <a class="button" href="#contact">Contact Us</a>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+
+    <div class="card">
+      <h3>Premium Service</h3>
+      <p>High-quality service designed around our customers.</p>
+    </div>
+
+    <div class="card">
+      <h3>Luxury Experience</h3>
+      <p>Professional, modern and reliable.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="hero">
+    <h2>Contact Us</h2>
+    <p>Ready to work with us?</p>
+    <a class="button" href="tel:+254700000000">Call Us</a>
+  </section>
+
+  <footer>
+    © 2026 Black & Luxury. All rights reserved.
+  </footer>
+
+</body>
+</html>
